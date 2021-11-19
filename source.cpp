@@ -6,7 +6,9 @@ int hieu(int a, int b){
 int tong(int a, int b){
 	return a+b;
 };
-
+int tich(int a, int b){
+	return a*b;
+};
 int main()
 {
 	int a, b;
@@ -21,6 +23,9 @@ int main()
 	cout <<"Hieu la:"<<hieuSo;
 	int tongSo = tong(a,b);
 	cout <<"Tong la:"<<tongSo;
+	int tichSo=tich(a,b);
+	cout <<"Tich la:"<<tichSo;
+
 	system("pause");
 	return 0;
 }
